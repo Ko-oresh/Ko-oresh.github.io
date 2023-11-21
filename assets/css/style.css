@@ -1,20 +1,49 @@
+* {
+    text-decoration: none;
+}
 body {
+    margin: 0;
+    padding: 0;
     background: url(../images/apple-seamless-background-repeating-pattern-wallpaper-background-cute-seamless-pattern-background_42349-850.avif); 
     font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    height: 100vh;
 }
 
-.text {
-    text-align: center;
-    color: black;
-    margin: 0;
+.navbar {
+    background: #ccc;
+    box-shadow: 0 5px 10px gray;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    padding: 0 6%;
 }
+
+.nav-list {
+    list-style: none;
+}
+
+.logo {
+    font-weight: 750;
+    font-size: 40px;
+    align-items: center;
+}
+
 .card {
-    margin: 30px auto;
+    margin: 200px auto;
     background-color: #ccc;
     width: 400px;
-    box-shadow: 0 5px 10px #aaa;
-    justify-content: center;
-    align-items: center;
+    box-shadow: 0 5px 10px gray;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.card-img {
+    width: 300;
+    height: 200;
+    display: block;
+    margin: 0 auto;
+    border-radius: 50%;
 }
 
 img {
