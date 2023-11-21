@@ -13,3 +13,7 @@ body {
     color: goldenrod;
     line-height: 1.5;
 }
+
+.card {
+    width: 400;
+}
