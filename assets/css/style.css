@@ -1,8 +1,15 @@
 body {
-    background-color:#54bfe3; 
-    text-align: center;
+    background-color: #2b2b2b; 
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-h1 {
-    color: blueviolet;
+.title {
+    text-align: center;
+    color: gold;
+    font-size: 100px;
+}
+
+.text {
+    color: goldenrod;
+    line-height: 1.5;
 }
