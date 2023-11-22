@@ -1,52 +1,101 @@
 * {
     text-decoration: none;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+
+
 }
 body {
-    margin: 0;
-    padding: 0;
-    background: url(../images/apple-seamless-background-repeating-pattern-wallpaper-background-cute-seamless-pattern-background_42349-850.avif); 
+    background: url(../images/apple-seamless-background-repeating-pattern-wallpaper-background-cute-seamless-pattern-background_42349-850.avif);
     font-family: Arial, Helvetica, sans-serif;
-    box-sizing: border-box;
     height: 100vh;
 }
 
+img {
+    max-width: 100%;
+    max-height: 100%;
+  }
+
 .navbar {
     background: #ccc;
-    box-shadow: 0 5px 10px gray;
+    box-shadow: 0 5px 15px gray;
     justify-content: space-between;
     display: flex;
     align-items: center;
     padding: 0 6%;
 }
 
-.nav-list {
-    list-style: none;
-}
-
 .logo {
     font-weight: 750;
     font-size: 40px;
     align-items: center;
+    transition: 0.3s;
+    color: rgb(230, 75, 80);
+    font-family:'Times New Roman', Times, serif;
+    margin: 15px;
 }
 
-.card {
-    margin: 200px auto;
-    background-color: #ccc;
-    width: 400px;
-    box-shadow: 0 5px 10px gray;
-    border-radius: 10px;
-    padding: 10px;
+.logo:hover {
+    transform: scale(1.5);
 }
 
-.card-img {
-    width: 300;
-    height: 200;
+.nav-list li {
+    position:relative;
+    float: left;
+}
+
+.nav-list li a{
+    padding: 18px;
+    font-size: 20px;
     display: block;
-    margin: 0 auto;
-    border-radius: 50%;
+    color: #001553;
+    transition: 0.3s;
 }
 
-img {
-    max-width: 100%; /* Чтобы изображение не выходило за пределы контейнера */
-    max-height: 100%; /* Чтобы изображение не выходило за пределы контейнера */
-  }
+.nav-list li a:hover{
+    transform: scale(1.5);
+}
+
+.page {
+    background: #ccc;
+    margin: 6% 7%;
+    height: 300vh;
+    box-shadow: 0 5px 15px gray;
+    border-radius: 1%;
+    padding: 30px;
+}
+
+.page-list li {
+    max-width: 320px;
+    height: auto;
+    position: relative;
+    float: inline-start;
+    margin: 20px;
+
+}
+.page-list li img {
+    border-radius: 10%;
+    display: block;
+    box-shadow: 0 5px 15px gray;
+    align-items: center;
+}
+
+.test {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.test img {
+    border-radius: 10%;
+    box-shadow: 0 5px 15px rgb(240, 11, 11);
+}
+
+.text {
+    margin: 40px;
+    font-size: 16px;
+    color: black;
+
+}
