@@ -64,23 +64,19 @@ img {
   box-shadow: 0 5px 15px gray;
   border-radius: 1%;
   padding: 30px;
-  min-height: auto;
-  display: flex;
-  flex-wrap: wrap;
+  display: inline-block;
+  text-align: center;
 }
 
 .page-list li {
   max-width: 320px;
   height: auto;
-  position: relative;
   float: inline-start;
-  margin: 20px 37px;
+  margin: 20px;
 }
 .page-list li img {
   border-radius: 10%;
-  display: block;
   box-shadow: 0 5px 15px gray;
-  align-items: center;
 }
 
 .test {
@@ -99,3 +95,9 @@ img {
   font-size: 16px;
   color: #ccc;
 }
+
+.outher {
+    display: block;
+    text-align: center;
+}
+
