@@ -1,0 +1,59 @@
+/* :root {
+
+} */
+
+::selection {
+    background-color:#20C997;
+    color: #000;
+}
+
+
+
+.navbar-nav .nav-link.active {
+    color: #20C997;
+}
+.navbar-nav .nav-link.active:hover {
+    color: #29ffbf;
+}
+.navbar-brand img {
+    width: 37px;
+    border-radius: 15%;
+    transition: 1s ease;
+}
+.navbar-brand img:hover {
+    transform: rotate(30deg);
+}
+
+
+
+section {
+    color: white;
+    font-family: Roboto, serif;
+}
+.carousel-caption h3 {
+    color: #fff;
+}
+
+.home-img {
+    background: #ffffff url(../images/home.jpg) center center/cover no-repeat local;
+    height: 80vh;
+}
+
+
+
+
+
+
+footer {
+    color: #3aa182;
+}
+.footer-nav {
+    justify-content: center;
+    margin: 0;
+    margin-top: 6px;
+}
+
+.breadcrumb a {
+    color: #20C997;
+}
+
